@@ -27,6 +27,12 @@ header {
 .grid-item0 {
   padding-top: 20px;
   grid-column-start: 3;
+  z-index: -1;
+}
+
+.grid-item00 {
+  padding-top: 20px;
+  grid-column-start: 8;
 }
 
 .nav-item {
@@ -52,24 +58,28 @@ h2 {
 }
 
 .img-resize2 {
-  width: 400px;
+  width: 700px;
 }
 
-.img-resize1,
+/* .img-resize3 {
+  width: 400px;
+} */
+
+/* .img-resize1,
 .img-resize2 {
   grid-row-start:  1;
   grid-column-end: span 2;
 }
 
 .img-resize1 { grid-column-start: 1; z-index: 1; }
-.img-resize2 { grid-column-start: 2 }
+.img-resize2 { grid-column-start: 2 } */
 
 
 .grid2 {
   display: grid;
   grid-template-rows: repeat(4, auto);
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: .5em;
+  grid-gap: 1em;
 }
 
 
