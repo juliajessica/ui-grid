@@ -1,6 +1,6 @@
-# **[Project Name]**
+# **UI Grid and Flexbox Webpage**
 
-#### By William Chu
+#### By Julia Sheremet
 
 ## Description
 
@@ -12,7 +12,7 @@
 
 ## Setup/Installation Requirements
 
-* To view project code, _clone repository from_ https://github.com/william-chu/Project
+* To view project code, _clone repository from_
 * Install Node.js
 * Open terminal, navigate to project root folder and run npm install
 * To bundle and build project distribution folder, run npm run build
@@ -37,4 +37,4 @@
 
 * GPL
 
-William Chu © 2018
+Julia Sheremet © 2018
