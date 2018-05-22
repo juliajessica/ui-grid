@@ -1,1 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display+SC');
 
+.grid {
+  display: grid;
+}
+
+.grid-item {
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* align-items: stretch; */
+  align-content: space-between;
+  background-color: #b1b5bc;
+  padding: 20px;
+}
+
+.nav-item {
+ align-items: flex-start;
+ flex-basis: 60px;
+ font-family: 'Playfair Display SC', serif;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+}
